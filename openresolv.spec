@@ -1,11 +1,11 @@
 Summary:	A POSIX resolvconf(8) implementation, a middleman for resolv.conf(5)
 Name:		openresolv
-Version:	3.12.0
+Version:	3.13.2
 Release:	1
 License:	BSD
 Group:		Base
-Source0:	https://roy.marples.name/downloads/openresolv/%{name}-%{version}.tar.xz
-# Source0-md5:	595f8633c111c150b86825b027e0bbde
+Source0:	https://github.com/NetworkConfiguration/openresolv/releases/download/v%{version}/%{name}-%{version}.tar.xz
+# Source0-md5:	acdfb7ae70f650ab22d7f123eb6b1096
 URL:		https://roy.marples.name/projects/openresolv/
 Conflicts:	resolvconf
 BuildArch:	noarch
